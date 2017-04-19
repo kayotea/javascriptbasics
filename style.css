@@ -1,0 +1,54 @@
+/*stylesheet for javascript-basics.html*/
+
+
+
+html,body{
+    height: 100%;
+}
+p, h1, h2, ul{
+    color: #bed6ed;
+    margin: 10px;
+}
+a{
+    color: #0ce5e7;
+    text-decoration: underline;
+}
+span{
+    color: #7d79f7;
+}
+#wrapper{
+    background-color: #1a305f;
+    min-height: 100%;
+    padding: 10px;
+}
+.header{
+    background-color: #e2001c;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    margin: 5px;
+}
+.sidebar{
+    background-color: #007f8e;
+    border-radius: 20px;
+    height: 50%;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+.content{
+    background-color: #0c1722;
+    border-radius: 20px;
+    width: 75%;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer{
+    background-color: #5d6574;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+   /* width: 98%;*/
+}
